@@ -6,7 +6,93 @@
     <title>Unit03-Formularios</title>
 </head>
 <body>
+<h2>Elementos de um Formulário</h2>
 
+<form action="" method="GET">
+    Nome: <input type="text" name="nome" /><br/>
+    Senha: <input type="password" name="senha"><br/>
+    <hr/>
+
+    Para qual time voce torce?<br/>
+    
+    <input type="radio" name="time" value="Brasil"/>Brasil<br/>
+    <input type="radio" name="time" value="Argentina"/>Argentina<br/>
+    <input type="radio" name="time" value="Alemanha"/>Alemanha<br/>
+    <input type="radio" name="time" value="Itália"checked/>Itália<br/>
+    <hr/>
+
+    Escolha seus esportes preferidos<br/>
+    <input type="checkbox" name="esporte 1" value="Futebol"/>Futebol <br/>
+    <input type="checkbox" name="esporte 2" value="Volei"/>Volei<br/>
+    <input type="checkbox" name="esporte 3" value="Natação"/>Natação <br/>
+    <input type="checkbox" name="esporte 4" value="Basquete"/>Basquete <br/>
+     <hr/>
+
+     Escolha uma cor:<br/>
+     <input type="color" name="cor"/><br/>
+     <hr/>
+     Data Atual: <br/>
+     <input type="date" name="data"><br/>
+
+     Data e hora:<br/>
+     <input type="datetime-local" name="data1"><br/>
+
+     <hr/>
+
+     E-mail:<br/>
+     <input type="email" name="email"/> <br/>
+     <hr/>
+
+     Arquivo<br/>
+     <input type="file" name="arquivo"/><br/>
+
+     <hr/>
+
+     Numero (entre 1 e 5) <br/>
+     <input type="number" name="quantidade"/><br/>
+
+     <hr/>
+
+     Pontos <br/>
+
+     <input type="range" name="pontos " min="0" max="10"/><br/>
+
+     <hr/>
+     <input type="submit" value="Enviar"/>
+     <input type="reset" value="redefinir"/><br/>
+     <hr/>
+
+     Selecionar sua comida preferida: <br/>
+     <select name="comidas">
+      <option value="Pizza"> Pizza</option>
+      <option value="Sorvete"> Sorvete</option>
+      <option value="Hamburguer"> Hamburguer</option>
+      <option value="Salada"> Pizza</option>
+      <option value="Lasanha"> Pizza</option>
+
+     </select>
+     <hr/>
+
+     Deixe aqui sua mensagem: <br/>
+     <textarea  name="mensagem" rows="10" cols="30">Escreva aqui seu texto..</textarea>
+     <hr/>
+
+     <button type="button" onclick="alert('Olá mundo')">Clique aqui</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
 
     
 </body>
