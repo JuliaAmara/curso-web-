@@ -2,6 +2,7 @@ h1 {
 
 color: rgb(248, 163, 213);
 text-align: center;
+border: 5px solid black;
 
 }
 
@@ -28,3 +29,61 @@ h5 {
 color: rgb(169, 221, 255)
 
 }
+
+
+.teste3 {
+     
+  background-color: rgba(255, 189, 246, 0.50)
+
+
+}
+
+p.dotted {border-style: dotted;}
+p.dashed{border-style: dashed;}
+p.solid{border-style: solid;}
+p.double{ border-style: double;}
+p.groove{border-style: groove;}
+p.ridge{ border-style: ridge;}
+p.inset{border-style: inset;}
+p.outset{border-style: outset;}
+p.none{border-style: none;}
+p.hidden{border-style: hidden;}
+p.mix{border-style: dotted dashed solid double ;}
+
+
+
+p.um{
+
+  border-style: solid;
+  border-width: 5px;
+
+}
+p.dois{
+
+  border-style: solid;
+  border-width: medium;
+}
+p.tres{
+
+  border-style: solid;
+  border-width: 3px 11px 5px 11px;
+  
+}
+p.redondo1{
+border: 2px solid rgb(181, 226, 170);
+border-radius: 5px
+
+}
+
+p.redondo2{
+
+border:2px solid pink ;
+border-radius: 8px;
+}
+
+p.redondo3{
+  border: 3px solid  rgb(210, 210, 255);
+  border-radius: 12px;
+
+}
+
