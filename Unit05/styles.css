@@ -1,5 +1,5 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     margin: 2em;
     
@@ -16,11 +16,15 @@ body {
     text-decoration: none;
     padding: 14px 16px;
     display: block;
+    float: left;
+    text-align: center;
   }
 
 .banner {
     background-color: rgb(245, 211, 211);
     padding: 15px;
+    margin-top: 7px;
+    text-align: center;
 }
 
 .container{
@@ -31,7 +35,8 @@ body {
 .menu {
   width: 20%;
   background-color: rgb(217, 196, 238);
-
+  float: left;
+  text-align: center;
 }
 
 .menu a {
@@ -41,23 +46,30 @@ body {
     width: 100%;
     padding: 8px;
     display: block;
+    margin-top: 7px;
 }
 
 .main{
     width: 60%;
     background-color: blanchedalmond;
     padding: 0 20px;
+    float: left;
 }
 
 .right{
   width: 20%;
   background-color: rgb(228, 175, 200);
   padding: 15px;
+  float: left;
+  margin-top: 7px;
+  text-align: center;
 }
 
 .footer{
     padding: 10px;
     background-color: rgb(250, 244, 217);
+    margin-top: 7px;
+    text-align: center;
 }
 
 
@@ -66,3 +78,9 @@ body {
     box-sizing: border-box;
  }
 
+@media only screen and (max-width:620px) {
+    .menu, .main, .right {
+    width:100%;
+  }
+} 
+  
