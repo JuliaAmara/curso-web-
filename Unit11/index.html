@@ -29,6 +29,85 @@
         ">Entrar</button>
 
     </div>
+
+        <div>
+
+            <select id="opcoes">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+                <option value="3">Opção 3</option>
+            </select>
+            
+         </div>
+
+            <button 
+                onclick="var op = document.getElementById('opcoes').value 
+                console.log(op)">Selecionar</button>
+
+                <button 
+                onclick="var op = document.getElementById('opcoes').value 
+                switch (op){
+                    case '1':
+                        alert('1')
+                        break 
+                    case '2':
+                        alert ('2')
+                        break
+                    case '3':
+                        alert('3')
+                        break
+                        default:
+                            alert('nada')
+                }
+                ">Selecionar</button>
+
+                <h3>Repetição - FOR </h3>
+                <div id="for">
+                    <input id="qtd">
+                    <button onclick="
+                        var qtdInput = document.getElementById('qtd').value
+                        var htmlFinal = ''
+
+                        for(var i=0; i < qtdInput; i++){
+                            htmlFinal += 'nome: <input><br><br>'
+                        }
+                        document.getElementById('nomes').innerHTML = htmlFinal
+                    ">
+                    Criar
+                    </button>
+
+                    <div id="nomes"></div>
+
+                </div>
+
+                <h3>Repetição - WHILE</h3>
+
+                <div id="while">
+
+                    <button onclick="
+                        var num = Math.floor (Math.random()*10)
+                        console.log(num)
+                        htmlFinal=''
+
+                        while(num!=2){
+                            htmlFinal+=num
+                            num = Math.floor(Math.random() *10)
+                        }
+
+                        document.getElementById('numeros').innerHTML = htmlFinal
+                        ">
+                    Gerar
+                    </button>
+                    <div id="numeros"></div>
+
+                </div>
+                
+                    
+            
+            
+         
+            
+         
     
 
 
