@@ -52,9 +52,70 @@ function preencherSelect(){
     var htmlFinal = ""
     var tamanholista = compras.length
     for(var i = 0; i < tamanholista; i++){
-        htmlFinal+= "<option>" + compras [i]+ "</option>"
+        htmlFinal+= "<option value ="+i+">" + compras [i]+ "</option>"
     }
 
     document.getElementById("meuSelect").innerHTML = htmlFinal
 }
+
+function adicionarItem(){
+    var valorInput = document.getElementById("inputItem").value;
+    compras.push(valorInput)
+    preencherSelect();
+}
+
+function removerItem(){
+    var valorSelect = document.getElementById("meuSelect").value;
+    compras.splice(valorSelect,1);
+    preencherSelect();
+
+}
+
+function soma(){
+    
+    var num1 = parseInt( document.getElementById("Input1").value);
+    var num2 = parseInt(document.getElementById("Input2").value);
+
+    document.getElementById("resultado").innerHTML = num1 + num2
+
+}
+
+function sub(){
+    var num1 = parseInt(document.getElementById('Input1').value);
+    var num2 = parseInt(document.getElementById("Input2").value);
+
+    document.getElementById("resultado").innerHTML = num1 - num2
+
+
+}
+
+function mult(){
+    var num1 = parseInt(document.getElementById('Input1').value);
+    var num2 = parseInt(document.getElementById("Input2").value);
+
+    document.getElementById("resultado").innerHTML = num1 * num2
+}
+
+function divi(){
+    var num1 = parseInt(document.getElementById('Input1').value);
+    var num2 = parseInt(document.getElementById("Input2").value);
+
+    document.getElementById("resultado").innerHTML = num1 / num2
+}
+
+function criarInputs(){
+    var numInputs = parseInt(document.getElementById("numeroInputs").value)
+    var htmlFinal = ""
+
+    for(var i = 0; i < numInputs; i++){
+        htmlFinal += "<input class='inputMedia'> <br><br>";
+
+    }
+
+    document.getElementById("divInputs").innerHTML = htmlFinal;
+
+
+
+}
+
 
