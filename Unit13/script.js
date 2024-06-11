@@ -47,5 +47,70 @@ var idade = 12;
 
 var pessoa = {nome: "zezinho" , sobrenome: "Silva" , idade: 12}
 
+var novaPessoa = {
+    nome: "Zezinha",
+    sobrenome:"Silvio",
+    idade:21,
+
+    andar: function() {
+       // alert( this.nome +' esta andando, e tem ' + this.idade+ " anos ")
+    }
+
+}
+
+novaPessoa.andar();
+
+//METODO CONSTRUTOR
+
+function people(_nome,_sobrenome,_idade){
+    this.nome = _nome;
+    this.sobrenome = _sobrenome;
+    this.idade = _idade;
+}
+
+var pessoa1 = new people("Julia","Amaral",13);
+
+
+function Item(nome,quantidade,preco){
+    this.nomeItem = nome;
+    this.quantidadeItem = quantidade;
+    this.precoItem = preco;
+}
+
+var itens = []
+
+function adicionarItem(){
+    var nomeItemnovo = $("#nomeitemID").val();
+    var quantidadeNovo = $("#quantidadeID").val();
+    var precoNovo = $("#precoID").val();
+
+    var novoItem = new Item(nomeItemnovo,quantidadeNovo,precoNovo)
+
+    itens.push(novoItem);
+    console.log(itens);
+    atualizaTabela(novoItem);
+
+
+
+}
+
+function atualizaTabela(item){
+    var htmlFinal = "<tr>"
+
+
+    htmlFinal += "<td>" + item.nomeItem + "</td>";
+    htmlFinal += "<td>" + item.quantidadeItem + "</td>";
+    htmlFinal += "<td>" + item.precoItem + "</td>";
+
+    htmlFinal += "</tr>";
+
+    $("#tabelaItems").append(htmlFinal);
+
+
+    
+}
+
+
+
 
 
