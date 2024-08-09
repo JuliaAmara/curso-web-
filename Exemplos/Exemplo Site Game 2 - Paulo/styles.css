@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #333; /* Define a cor de fundo da página */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Define a altura mínima da viewport */
+}
+
+.container {
+    background-color: #555; /* Define a cor de fundo do contêiner */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+    max-width: 800px; /* Define a largura máxima do contêiner */
+    text-align: center; /* Centraliza o texto */
+}
+
+header h1 {
+    font-size: 2em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona margem abaixo do título */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    display: flex; /* Usa Flexbox para os itens da lista */
+    justify-content: center; /* Centraliza os itens da lista */
+    margin-bottom: 20px; /* Adiciona margem abaixo da navegação */
+}
+
+nav ul li {
+    margin: 0 10px; /* Adiciona margem aos itens da lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove a sublinhado dos links */
+    color: #007bff; /* Define a cor dos links */
+    font-weight: bold; /* Define a fonte dos links como negrito */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
+}
+
+.main-image {
+    width: 100%; /* Define a largura da imagem principal */
+    height: auto; /* Mantém a proporção da imagem principal */
+    border-radius: 10px; /* Arredonda os cantos da imagem principal */
+    margin-bottom: 20px; /* Adiciona margem abaixo da imagem principal */
+}
+
+.characters {
+    display: flex; /* Define o layout como Flexbox */
+    flex-wrap: wrap; /* Permite que os itens do flexbox quebrem para
+justify-content: space-around; /* Distribui os itens com espaço igual entre eles */
+}
+
+.character {
+    background-color: #f9f9f9; /* Define a cor de fundo do card do personagem */
+    padding: 20px; /* Adiciona espaçamento interno ao card */
+    border-radius: 10px; /* Arredonda os cantos do card */
+    margin: 10px; /* Adiciona margem ao redor do card */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao card */
+    width: 200px; /* Define a largura do card */
+    text-align: center; /* Centraliza o texto */
+}
+
+.character img {
+    width: 100px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Arredonda a imagem para formar um círculo */
+    margin-bottom: 10px; /* Adiciona margem abaixo da imagem */
+}
+
+.character h2 {
+    font-size: 1.5em; /* Define o tamanho da fonte do nome do personagem */
+    margin-bottom: 10px; /* Adiciona margem abaixo do nome do personagem */
+}
+
+.character p {
+    font-size: 1em; /* Define o tamanho da fonte da descrição do personagem */
+    line-height: 1.4; /* Define o espaçamento entre linhas da descrição */
+}

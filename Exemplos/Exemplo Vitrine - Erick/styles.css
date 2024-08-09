@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f5f5f5; /* Define a cor de fundo da página */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da viewport */
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+.product-grid {
+    display: flex; /* Define o layout como Flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 20px; /* Define o espaçamento entre os produtos */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #fff; /* Define a cor de fundo do contêiner */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+    max-width: 1000px; /* Define a largura máxima do contêiner */
+    margin-top: 100px;
+}
+
+.product {
+    background-color: #fff; /* Define a cor de fundo do produto */
+    border: 1px solid #ddd; /* Define a borda do produto */
+    border-radius: 10px; /* Arredonda os cantos do produto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    transition: transform 0.2s; /* Adiciona uma transição suave para o hover */
+    flex: 1 1 calc(25% - 40px); /* Define a largura do produto para 25% da linha menos o gap */
+    box-sizing: border-box; /* Inclui a borda e o padding na largura total */
+    min-width: 200px; /* Define a largura mínima do produto */
+}
+
+.product img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+}
+
+.product h2 {
+    font-size: 1.2em; /* Define o tamanho da fonte do título */
+    margin: 10px 0; /* Adiciona margem acima e abaixo do título */
+}
+
+.product p {
+    font-size: 0.9em; /* Define o tamanho da fonte da descrição */
+    color: #666; /* Define a cor da fonte da descrição */
+}
+
+.price {
+    display: block; /* Garante que o preço ocupe uma linha inteira */
+    font-size: 1.1em; /* Define o tamanho da fonte do preço */
+    margin: 10px 0; /* Adiciona margem acima e abaixo do preço */
+    color: #333; /* Define a cor da fonte do preço */
+}
+
+.add-to-cart {
+    background-color: #28a745; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+    transition: background-color 0.2s; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Muda a cor de fundo ao passar o mouse sobre o botão */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Move o produto para cima ao passar o mouse */
+}

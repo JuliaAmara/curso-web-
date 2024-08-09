@@ -1,0 +1,50 @@
+<!-- ATENÇÃO LEIA!!!!! Estou enviando exemplos criados com IA a partir das idéias de cada aluno.
+    O uso de IA está liberado mas com resposabilidade, todo o código sugerido pela inteligencia artificial
+    deve ser estudado e compreendido pelo aluno.
+-->
+    
+<!-- Sua ideia pode ser aprimorada para a inclusão de mais páginas, por exemplo páginas falando sobre 
+ personagens no anime tela -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados para o documento -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para dispositivos móveis -->
+    <title>Calculadora Dragon Ball Z</title> <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <div class="calculator-container"> <!-- Contêiner principal da calculadora -->
+        <header>
+            <h1>Calculadora Dragon Ball Z</h1> <!-- Cabeçalho com o título -->
+        </header>
+        <div class="calculator"> <!-- Contêiner da calculadora -->
+            <div class="display" id="display">0</div> <!-- Área de exibição da calculadora -->
+            <div class="buttons"> <!-- Contêiner dos botões -->
+                <!-- Botões da calculadora -->
+                <button class="btn" onclick="clearDisplay()">C</button>
+                <button class="btn" onclick="deleteLast()">⌫</button>
+                <button class="btn" onclick="appendOperator('/')">÷</button>
+                <button class="btn" onclick="appendOperator('*')">×</button>
+                <button class="btn" onclick="appendNumber('7')">7</button>
+                <button class="btn" onclick="appendNumber('8')">8</button>
+                <button class="btn" onclick="appendNumber('9')">9</button>
+                <button class="btn" onclick="appendOperator('-')">-</button>
+                <button class="btn" onclick="appendNumber('4')">4</button>
+                <button class="btn" onclick="appendNumber('5')">5</button>
+                <button class="btn" onclick="appendNumber('6')">6</button>
+                <button class="btn" onclick="appendOperator('+')">+</button>
+                <button class="btn" onclick="appendNumber('1')">1</button>
+                <button class="btn" onclick="appendNumber('2')">2</button>
+                <button class="btn" onclick="appendNumber('3')">3</button>
+                <button class="btn equal" onclick="calculate()">=</button> <!-- Botão de igual -->
+                <button class="btn zero" onclick="appendNumber('0')">0</button> <!-- Botão de zero -->
+                <button class="btn" onclick="appendNumber('.')">.</button> <!-- Botão de ponto decimal -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script> <!-- Link para o arquivo JavaScript externo -->
+</body>
+</html>

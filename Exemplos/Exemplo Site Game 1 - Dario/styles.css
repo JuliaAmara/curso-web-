@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f5f5f5; /* Define a cor de fundo da página */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da viewport */
+}
+
+.container {
+    background-color: #fff; /* Define a cor de fundo do contêiner */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+    max-width: 800px; /* Define a largura máxima do contêiner */
+    text-align: center; /* Centraliza o texto */
+}
+
+header h1 {
+    font-size: 2em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona margem abaixo do título */
+}
+
+.introduction p {
+    font-size: 1.2em; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 30px; /* Adiciona margem abaixo do parágrafo */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+}
+
+.image-links {
+    display: flex; /* Define o layout como Flexbox */
+    justify-content: space-around; /* Distribui os itens com espaço igual entre eles */
+}
+
+.image-links a img {
+    width: 200px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 10px; /* Arredonda os cantos das imagens */
+    transition: transform 0.2s; /* Adiciona uma transição suave para o hover */
+}
+
+.image-links a img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+.characters {
+    display: flex; /* Define o layout como Flexbox */
+    flex-wrap: wrap; /* Permite que os itens do flexbox quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui os itens com espaço igual entre eles */
+}
+
+.character {
+    background-color: #f9f9f9; /* Define a cor de fundo do card do personagem */
+    padding: 20px; /* Adiciona espaçamento interno ao card */
+    border-radius: 10px; /* Arredonda os cantos do card */
+    margin: 10px; /* Adiciona margem ao redor do card */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao card */
+    width: 200px; /* Define a largura do card */
+    text-align: center; /* Centraliza o texto */
+}
+
+.character img {
+    width: 100px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Arredonda a imagem para formar um círculo */
+    margin-bottom: 10px; /* Adiciona margem abaixo da imagem */
+}
+
+.character h2 {
+    font-size: 1.5em; /* Define o tamanho da fonte do nome do personagem */
+    margin-bottom: 10px; /* Adiciona margem abaixo do nome do personagem */
+}
+
+.character p {
+    font-size: 1em; /* Define o tamanho da fonte da descrição do personagem */
+    line-height: 1.4; /* Define o espaçamento entre linhas da descrição */
+}

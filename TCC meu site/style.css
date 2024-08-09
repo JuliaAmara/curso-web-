@@ -1,21 +1,22 @@
 
 header {
-    background-color: #ab8db4; /* Define a cor de fundo do cabeçalho */
+    background-color: #404863; /* Define a cor de fundo do cabeçalho */
     color: white; /* Define a cor do texto no cabeçalho */
-    padding: 20px ; /* Adiciona padding ao cabeçalho */
+    padding : 10px ; /* Adiciona padding ao cabeçalho */
 }
 
 body {
     margin: 0; /* Remove as margens padrão */
     padding: 0; /* Remove o padding padrão */
-    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
-    background-color: #f4f4f4; /* Define a cor de fundo */
+    background-color: #f4f4f4; /* Define a cor de fundo */    
+    font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
-
 nav ul {
     list-style: none; /* Remove os marcadores da lista */
     padding: 0; /* Remove o padding da lista */
-    text-align: center; /* Centraliza o texto da lista */
+    text-align: left; /* Centraliza o texto da lista */
 }
 
 nav ul li {
@@ -38,5 +39,28 @@ nav ul li a {
 
 .navebar-header {
 
+
     margin: 10px ;
+}
+
+.carrousel-center {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.backgroundcolor {
+
+ background-color: #a4a6a8c4;
+}
+
+.margemlogo {
+
+    margin-left: 130px;
+}
+
+.carrouselmargem {
+
+    margin-top: 0;
 }

@@ -1,0 +1,81 @@
+/* Estilos básicos para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão */
+    background: url('assets/dz.jpeg') no-repeat center center fixed; /* Define a imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a tela */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura mínima da viewport */
+    color: white; /* Define a cor do texto */
+}
+
+/* Estilos para o contêiner principal da calculadora */
+.calculator-container {
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o cabeçalho */
+header h1 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona margem abaixo do título */
+    text-shadow: 2px 2px 4px #000; /* Adiciona uma sombra ao texto */
+}
+
+/* Estilos para o contêiner da calculadora */
+.calculator {
+    background: rgba(0, 0, 0, 0.7); /* Define a cor de fundo com transparência */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 15px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao contêiner */
+}
+
+/* Estilos para a área de exibição da calculadora */
+.display {
+    background: black; /* Define a cor de fundo */
+    color: #00ff00; /* Define a cor do texto */
+    font-size: 2em; /* Define o tamanho da fonte */
+    padding: 15px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    text-align: right; /* Alinha o texto à direita */
+    margin-bottom: 10px; /* Adiciona margem abaixo */
+    box-shadow: inset 0px 0px 10px rgba(0, 255, 0, 0.5); /* Adiciona uma sombra interna */
+}
+
+/* Estilos para o contêiner dos botões */
+.buttons {
+    display: grid; /* Usa grid layout para os botões */
+    grid-template-columns: repeat(4, 1fr); /* Define 4 colunas de largura igual */
+    gap: 10px; /* Define o espaço entre os botões */
+}
+
+/* Estilos básicos para os botões */
+.btn {
+    background: #222; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove as bordas */
+    padding: 20px; /* Adiciona espaçamento interno */
+    font-size: 1.5em; /* Define o tamanho da fonte */
+    border-radius: 10px; /* Arredonda os cantos */
+    transition: background 0.3s; /* Adiciona transição suave para mudanças de fundo */
+    box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.5); /* Adiciona uma sombra */
+}
+
+/* Efeito de hover para os botões */
+.btn:hover {
+    background: #555; /* Muda a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o botão de igual */
+.equal {
+    background: #ff4500; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    grid-column: span 2; /* Ocupa 2 colunas no grid */
+}
+
+/* Estilos para o botão de zero */
+.zero {
+    grid-column: span 2; /* Ocupa 2 colunas no grid */
+}

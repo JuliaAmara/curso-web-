@@ -1,0 +1,88 @@
+/* Estilos básicos para o corpo da página */
+body {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o padding padrão */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+/* Estilos para o cabeçalho e navegação */
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 10px 0; /* Adiciona padding ao cabeçalho */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding da lista */
+    text-align: center; /* Centraliza o texto da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Adiciona margem horizontal entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Define o texto dos links como negrito */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px; /* Adiciona padding ao conteúdo principal */
+}
+
+h1 {
+    font-size: 2em; /* Define o tamanho da fonte dos títulos */
+    color: #333; /* Define a cor do texto dos títulos */
+}
+
+section {
+    margin-bottom: 20px; /* Adiciona margem abaixo das seções */
+}
+
+/* Estilos para o formulário de avaliação */
+form {
+    display: flex; /* Usa Flexbox para organizar os elementos do formulário */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    gap: 10px; /* Adiciona espaço entre os elementos do formulário */
+}
+
+label {
+    font-weight: bold; /* Define o texto dos rótulos como negrito */
+}
+
+input[type="text"], input[type="number"], textarea {
+    padding: 10px; /* Adiciona padding aos campos de entrada */
+    border: 1px solid #ddd; /* Define a borda dos campos de entrada */
+    border-radius: 5px; /* Arredonda os cantos dos campos de entrada */
+}
+
+button {
+    background-color: #333; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px; /* Adiciona padding ao botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+    font-size: 1em; /* Define o tamanho da fonte do botão */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Adiciona padding ao rodapé */
+}
+
+/* Estilos para as imagens dos livros no catálogo */
+.book-image {
+    width: 150px; /* Define a largura das imagens dos livros */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Faz com que a imagem seja exibida como bloco */
+    margin-bottom: 10px; /* Adiciona margem abaixo das imagens */
+}
