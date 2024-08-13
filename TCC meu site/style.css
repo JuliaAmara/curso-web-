@@ -1,6 +1,9 @@
 
+
+
+
 header {
-    background-color: #404863; /* Define a cor de fundo do cabeçalho */
+    background-color:#003366 ; /* Define a cor de fundo do cabeçalho */
     color: white; /* Define a cor do texto no cabeçalho */
     padding : 10px ; /* Adiciona padding ao cabeçalho */
 }
@@ -10,7 +13,6 @@ body {
     padding: 0; /* Remove o padding padrão */
     background-color: #f4f4f4; /* Define a cor de fundo */    
     font-family: "Kanit", sans-serif;
-  font-weight: 100;
   font-style: normal;
 }
 nav ul {
@@ -40,7 +42,7 @@ nav ul li a {
 .navebar-header {
 
 
-    margin: 10px ;
+    margin: 11px ;
 }
 
 .carrousel-center {
@@ -52,7 +54,7 @@ nav ul li a {
 
 .backgroundcolor {
 
- background-color: #a4a6a8c4;
+ background-color: #222020
 }
 
 .margemlogo {
@@ -63,4 +65,18 @@ nav ul li a {
 .carrouselmargem {
 
     margin-top: 0;
+}
+
+
+.cor-card {
+
+    background-color:#800020  ;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.logofox {
+
+    margin-left: 350px;
+    width:90px;
 }
