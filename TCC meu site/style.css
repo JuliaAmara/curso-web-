@@ -3,7 +3,7 @@
 
 
 header {
-    background-color:#003366 ; /* Define a cor de fundo do cabeçalho */
+    background-color:#033660 ; /* Define a cor de fundo do cabeçalho */
     color: white; /* Define a cor do texto no cabeçalho */
     padding : 10px ; /* Adiciona padding ao cabeçalho */
 }
@@ -80,3 +80,279 @@ nav ul li a {
     margin-left: 350px;
     width:90px;
 }
+
+
+.card-black {
+    background-color: #003366 ;
+    color: #fff; 
+}
+
+
+.card-margin {
+    margin-bottom: 20px; 
+}
+
+ 
+
+
+ .section-title {
+     margin-top: 30px;
+     margin-bottom: 20px;
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: #f4f4f4;
+            }     
+ 
+/* Definindo uma cor de fundo personalizada para a navbar */
+.navbar-custom {
+    background-color: #003366; /* Verde personalizado */
+  }
+  
+  /* Definindo a cor do texto da navbar e logo */
+  .navbar-custom .navbar-brand {
+    color: #FFFFFF; /* Branco */
+    text-decoration: none; /* Remove sublinhado do link */
+  }
+  
+  /* Definindo a cor do texto ao passar o mouse */
+  .navbar-custom .navbar-brand:hover {
+    color: #FFD700; /* Ouro */
+  }
+  
+
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço entre os cards */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Permite que os cards quebrem linha em telas menores */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    background-color: #033660;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #f4f4f4; /* Cor do texto nos cards */
+    flex: 1 1 calc(33.33% - 20px); /* Largura dos cards para caber 3 em uma linha */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.letra-card {
+    color: #f4f4f4;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #f4f4f4;
+}
+
+
+
+
+h4, h3 {
+    color: #f4f4f4;
+    margin: 15px;
+}
+
+
+
+.category-card {
+    background-color: #033660;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.category-title {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #ffffff;}
+
+.game-card {
+    background-color: #1b1b1b;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.game-title {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.game-description {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #f4f4f4; /* Texto branco */
+    margin-bottom: 10px;
+}
+
+/* Texto do card */
+.card-text {
+    font-size: 1rem;
+    color: #f4f4f4; /* Texto branco */
+    line-height: 1.6;
+}
+
+/* Estilo de negrito personalizado */
+.card-text b {
+    color: #007bff; /* Cor azul para destaque */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-text b {
+    color: #f4f4f4; /* Cor branca para o texto em negrito dentro dos cards */
+}
+
+p {
+    color: #f4f4f4;
+    margin-top: 15px;
+}
+
+
+
+pagina avaliações
+
+
+header {
+    background-color: #033660;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.review-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de envio */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a lista de avaliações */
+.review-list {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.review-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #033660;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
